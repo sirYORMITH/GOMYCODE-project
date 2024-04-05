@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #333;
+}
+
+.title h1{
+  color: white;
+  font-size: 2rem;
+  padding: 10px 1em;
+}
+.title span{
+  color: red
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav ul li{
+  padding: 0 1em;
+}
+nav li a{
+color: white;
+text-decoration: none;
+}
+
+nav li a:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+.pic{
+  display: flex;
+  justify-content: center;
+}
+img{
+  width: 600px;
+  height: auto;
+  border-radius:50%;
+  object-fit: cover;
+  object-position: center;
+}
+#About{
+  text-align: center;
+}
+#About h1{
+padding: 20px;
+font-size: 3em;
+}
+#About p{
+  font-size: 1.2em;
+}
+
+#Skills{
+  text-align: center;
+  margin: 20px 0px;
+}
+#Skills ol li{
+  margin: 20px 0px;
+  font-size: 1.5em;
+}
+#Skills ol li:hover{
+  color: red; 
+}
+
+#Skills h1{
+  font-size: 3em;
+  color: red;
+}
+
+#Contact{
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 60px;
+}
+#Contact p{
+margin: 20px 0px;
+}
+
+.Mycontact{
+  color: red;
+  font-size: 2em;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+form label{
+  font-size: 1.4em;
+}
+
+input{
+  width: 500px;
+  padding: 15px;
+  margin: 15px 0px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.btn{
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+
+#Video{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
